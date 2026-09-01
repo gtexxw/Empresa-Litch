@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Litch - Sua plataforma de jogos digital com descoberta, acesso e comunidade.">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="style.css">
+    <title>Litch - Home</title>
+</head>
+
+<body>
+    <header>
+        <a href="index.html" class="header__brand" aria-label="Voltar à página inicial">
+            <img src="images/LitchLogo.png" alt="Litch logo">
+            <h1 class="title">Litch</h1>
+        </a>
+
+        <nav class="litch-nav" aria-label="Navegação principal">
+            <a href="#home" class="is-active">Home</a>
+            <a href="#game-store">Game Store</a>
+            <a href="#litch-plus">Litch+</a>
+            <a href="#community">Community</a>
+            <a href="help-me.html">Help-Me!</a>
+            <a href="sobre.html">Sobre</a>
+        </nav>
+
+        <button class="litch-search-btn" type="button" aria-label="Pesquisar jogos">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+                <circle cx="11" cy="11" r="7"></circle>
+                <path d="M16.5 16.5L21 21"></path>
+            </svg>
+        </button>
+    </header>
+
+    <hr>
+
+    <main>
+        <!-- HOME SECTION - Top Picks -->
+        <section id="home" class="litch-carousel">
+            <div class="litch-carousel__header">
+                <span class="litch-carousel__eyebrow">Litch Picks</span>
+                <h2 class="litch-carousel__title">Top Picks This Week</h2>
+                <p class="litch-carousel__helper">Deslize para ver mais</p>
+            </div>
+
+            <!-- Carrossel com Scroll Snap Nativo -->
+            <div class="litch-carousel__track">
+                <article class="litch-card">
+                    <img class="litch-card__img" src="images/eldenring.jpg" alt="Elden Ring">
+                    <div class="litch-card__scrim"></div>
+                    <span class="litch-card__tag">Litch+</span>
+                    <div class="litch-card__body">
+                        <h3 class="litch-card__name">Elden Ring</h3>
+                        <p class="litch-card__status">In Store and Litch+</p>
+                    </div>
+                </article>
+
+                <article class="litch-card">
+                    <img class="litch-card__img" src="images/eafc26.jpg" alt="EA FC 26">
+                    <div class="litch-card__scrim"></div>
+                    <span class="litch-card__tag">Litch+</span>
+                    <div class="litch-card__body">
+                        <h3 class="litch-card__name">EA FC 26</h3>
+                        <p class="litch-card__status">In Store and Litch+</p>
+                    </div>
+                </article>
+
+                <article class="litch-card">
+                    <img class="litch-card__img" src="images/crimsondesert.jpg" alt="Crimson Desert">
+                    <div class="litch-card__scrim"></div>
+                    <span class="litch-card__tag">Litch</span>
+                    <div class="litch-card__body">
+                        <h3 class="litch-card__name">Crimson Desert</h3>
+                        <p class="litch-card__status">In Store</p>
+                    </div>
+                </article>
+
+                <article class="litch-card">
+                    <img class="litch-card__img" src="images/gtav.jpg" alt="GTA V">
+                    <div class="litch-card__scrim"></div>
+                    <span class="litch-card__tag">Litch+</span>
+                    <div class="litch-card__body">
+                        <h3 class="litch-card__name">GTA V</h3>
+                        <p class="litch-card__status">In Store and Litch+</p>
+                    </div>
+                </article>
+
+                <article class="litch-card">
+                    <img class="litch-card__img" src="images/tlou1.jpg" alt="The Last of Us Part I">
+                    <div class="litch-card__scrim"></div>
+                    <span class="litch-card__tag">Litch</span>
+                    <div class="litch-card__body">
+                        <h3 class="litch-card__name">The Last of Us Part I</h3>
+                        <p class="litch-card__status">In Store</p>
+                    </div>
+                </article>
+
+                <article class="litch-card">
+                    <img class="litch-card__img" src="images/wuchang.jpeg" alt="Wu Chang">
+                    <div class="litch-card__scrim"></div>
+                    <span class="litch-card__tag">Litch</span>
+                    <div class="litch-card__body">
+                        <h3 class="litch-card__name">Wu Chang</h3>
+                        <p class="litch-card__status">In Store</p>
+                    </div>
+                </article>
+
+                <article class="litch-card">
+                    <img class="litch-card__img" src="images/persona5.jpg" alt="Persona 5">
+                    <div class="litch-card__scrim"></div>
+                    <span class="litch-card__tag">Litch+</span>
+                    <div class="litch-card__body">
+                        <h3 class="litch-card__name">Persona 5</h3>
+                        <p class="litch-card__status">In Store and Litch+</p>
+                    </div>
+                </article>
+
+                <article class="litch-card">
+                    <img class="litch-card__img" src="images/rdr2.jpeg" alt="Red Dead Redemption 2">
+                    <div class="litch-card__scrim"></div>
+                    <span class="litch-card__tag">Litch+</span>
+                    <div class="litch-card__body">
+                        <h3 class="litch-card__name">Red Dead Redemption 2</h3>
+                        <p class="litch-card__status">In Store and Litch+</p>
+                    </div>
+                </article>
+
+                <article class="litch-card">
+                    <img class="litch-card__img" src="images/baldurs_gate3.jpg" alt="Baldur's Gate 3">
+                    <div class="litch-card__scrim"></div>
+                    <span class="litch-card__tag">Litch</span>
+                    <div class="litch-card__body">
+                        <h3 class="litch-card__name">Baldur's Gate 3</h3>
+                        <p class="litch-card__status">In Store</p>
+                    </div>
+                </article>
+
+                <article class="litch-card">
+                    <img class="litch-card__img" src="images/gow-rag.jpg" alt="God of War: Ragnarok">
+                    <div class="litch-card__scrim"></div>
+                    <span class="litch-card__tag">Litch</span>
+                    <div class="litch-card__body">
+                        <h3 class="litch-card__name">God of War: Ragnorak</h3>
+                        <p class="litch-card__status">In Store</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- GAME STORE SECTION -->
+        <section id="game-store" class="litch-section">
+            <h2 class="litch-section__title">Game Store</h2>
+
+            <!-- Featured Banner -->
+            <div class="litch-hero">
+                <img class="litch-hero__img" src="images/crimsondesert.jpg" alt="Jogo em destaque">
+                <div class="litch-hero__scrim"></div>
+                <div class="litch-hero__content">
+                    <span class="litch-hero__tag">Featured</span>
+                    <h3 class="litch-hero__name">Crimson Desert</h3>
+                    <p class="litch-hero__desc">RPG, Fighting, Open World, Adventure, Souls-like</p>
+                    <div class="litch-hero__meta">
+                        <span class="litch-hero__price">R$ 134,95</span>
+                        <button class="litch-hero__cta" type="button">View Game</button>
+                    </div>
+                </div>
+            </div>
+
+            <h3 class="litch-section__subtitle">Highlights</h3>
+
+            <!-- Game Highlights Carousel -->
+            <div class="litch-carousel">
+                <div class="litch-carousel__track">
+                    <article class="litch-store-card">
+                        <img class="litch-store-card__img" src="images/peak.jpg" alt="Peak">
+                        <div class="litch-store-card__scrim"></div>
+                        <span class="litch-store-card__discount">-20%</span>
+                        <div class="litch-store-card__body">
+                            <h4 class="litch-store-card__name">Peak</h4>
+                            <p class="litch-store-card__genre">Adventure, COOP</p>
+                            <div class="litch-store-card__price">
+                                <span class="litch-store-card__price-old">R$ 39,90</span>
+                                <span class="litch-store-card__price-new">R$ 7,98</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="litch-store-card">
+                        <img class="litch-store-card__img" src="images/eafc26.jpg" alt="EA FC 26">
+                        <div class="litch-store-card__scrim"></div>
+                        <div class="litch-store-card__body">
+                            <h4 class="litch-store-card__name">EA FC 26</h4>
+                            <p class="litch-store-card__genre">Sports</p>
+                            <div class="litch-store-card__price">
+                                <span class="litch-store-card__price-new">R$ 199,90</span>
+                                <span class="litch-hero__plus">Litch+</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="litch-store-card">
+                        <img class="litch-store-card__img" src="images/crimsondesert.jpg" alt="Crimson Desert">
+                        <div class="litch-store-card__scrim"></div>
+                        <span class="litch-store-card__discount">-45%</span>
+                        <div class="litch-store-card__body">
+                            <h4 class="litch-store-card__name">Crimson Desert</h4>
+                            <p class="litch-store-card__genre">Open World, Souls-Like</p>
+                            <div class="litch-store-card__price">
+                                <span class="litch-store-card__price-old">R$ 299,90</span>
+                                <span class="litch-store-card__price-new">R$ 134,95</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="litch-store-card">
+                        <img class="litch-store-card__img" src="images/rdr2.jpeg" alt="Red Dead Redemption 2">
+                        <div class="litch-store-card__scrim"></div>
+                        <div class="litch-store-card__body">
+                            <h4 class="litch-store-card__name">Red Dead Redemption 2</h4>
+                            <p class="litch-store-card__genre">Shooter, Open World</p>
+                            <div class="litch-store-card__price">
+                                <span class="litch-store-card__price-new">R$ 149,90</span>
+                                <span class="litch-hero__plus">Litch+</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="litch-store-card">
+                        <img class="litch-store-card__img" src="images/csgo2.jpg" alt="Counter Strike 2">
+                        <div class="litch-store-card__scrim"></div>
+                        <span class="litch-store-card__discount">-55%</span>
+                        <div class="litch-store-card__body">
+                            <h4 class="litch-store-card__name">Counter Strike 2</h4>
+                            <p class="litch-store-card__genre">Shooter, Multiplayer</p>
+                            <div class="litch-store-card__price">
+                                <span class="litch-store-card__price-old">R$ 80,50</span>
+                                <span class="litch-store-card__price-new">R$ 36,20</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="litch-store-card">
+                        <img class="litch-store-card__img" src="images/dark-souls-3.jpg" alt="Dark Souls 3">
+                        <div class="litch-store-card__scrim"></div>
+                        <span class="litch-store-card__discount">-50%</span>
+                        <div class="litch-store-card__body">
+                            <h4 class="litch-store-card__name">Dark Souls 3</h4>
+                            <p class="litch-store-card__genre">Action, RPG, Souls-like</p>
+                            <div class="litch-store-card__price">
+                                <span class="litch-store-card__price-old">R$ 90,30</span>
+                                <span class="litch-store-card__price-new">R$ 45,15</span>
+                                <span class="litch-hero__plus">Litch+</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="litch-store-card">
+                        <img class="litch-store-card__img" src="images/baldurs_gate3.jpg" alt="Baldur's Gate 3">
+                        <div class="litch-store-card__scrim"></div>
+                        <div class="litch-store-card__body">
+                            <h4 class="litch-store-card__name">Baldur's Gate 3</h4>
+                            <p class="litch-store-card__genre">RPG, Adventure</p>
+                            <div class="litch-store-card__price">
+                                <span class="litch-store-card__price-new">R$ 199,90</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="litch-store-card">
+                        <img class="litch-store-card__img" src="images/gow-rag.jpg" alt="God of War: Ragnarok">
+                        <div class="litch-store-card__scrim"></div>
+                        <div class="litch-store-card__body">
+                            <h4 class="litch-store-card__name">God of War: Ragnorak</h4>
+                            <p class="litch-store-card__genre">Action, Adventure</p>
+                            <div class="litch-store-card__price">
+                                <span class="litch-store-card__price-new">R$ 249,90</span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- LITCH+ SECTION -->
+        <section id="litch-plus" class="litch-section">
+            <h2 class="litch-section__title">Litch+</h2>
+            <p class="litch-section__description">Acesso ilimitado a centenas de jogos com uma única assinatura.</p>
+
+            <div class="litch-carousel">
+                <div class="litch-carousel__track">
+                    <article class="litch-store-card">
+                        <img class="litch-store-card__img" src="images/eldenring.jpg" alt="Elden Ring">
+                        <div class="litch-store-card__scrim"></div>
+                        <span class="litch-store-card__tag">Litch+</span>
+                        <div class="litch-store-card__body">
+                            <h4 class="litch-store-card__name">Elden Ring</h4>
+                            <p class="litch-store-card__genre">Action RPG</p>
+                        </div>
+                    </article>
+
+                    <article class="litch-store-card">
+                        <img class="litch-store-card__img" src="images/persona5.jpg" alt="Persona 5">
+                        <div class="litch-store-card__scrim"></div>
+                        <span class="litch-store-card__tag">Litch+</span>
+                        <div class="litch-store-card__body">
+                            <h4 class="litch-store-card__name">Persona 5</h4>
+                            <p class="litch-store-card__genre">JRPG</p>
+                        </div>
+                    </article>
+
+                    <article class="litch-store-card">
+                        <img class="litch-store-card__img" src="images/rdr2.jpeg" alt="Red Dead Redemption 2">
+                        <div class="litch-store-card__scrim"></div>
+                        <span class="litch-store-card__tag">Litch+</span>
+                        <div class="litch-store-card__body">
+                            <h4 class="litch-store-card__name">Red Dead Redemption 2</h4>
+                            <p class="litch-store-card__genre">Action Adventure</p>
+                        </div>
+                    </article>
+
+                    <article class="litch-store-card">
+                        <img class="litch-store-card__img" src="images/eafc26.jpg" alt="EA FC 26">
+                        <div class="litch-store-card__scrim"></div>
+                        <span class="litch-store-card__tag">Litch+</span>
+                        <div class="litch-store-card__body">
+                            <h4 class="litch-store-card__name">EA FC 26</h4>
+                            <p class="litch-store-card__genre">Sports</p>
+                        </div>
+                    </article>
+
+                    <article class="litch-store-card">
+                        <img class="litch-store-card__img" src="images/gtav.jpg" alt="GTA V">
+                        <div class="litch-store-card__scrim"></div>
+                        <span class="litch-store-card__tag">Litch+</span>
+                        <div class="litch-store-card__body">
+                            <h4 class="litch-store-card__name">GTA V</h4>
+                            <p class="litch-store-card__genre">Action Adventure</p>
+                        </div>
+                    </article>
+
+                    <article class="litch-store-card">
+                        <img class="litch-store-card__img" src="images/dark-souls-3.jpg" alt="Dark Souls 3">
+                        <div class="litch-store-card__scrim"></div>
+                        <span class="litch-store-card__tag">Litch+</span>
+                        <div class="litch-store-card__body">
+                            <h4 class="litch-store-card__name">Dark Souls 3</h4>
+                            <p class="litch-store-card__genre">Action RPG</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- COMMUNITY SECTION -->
+        <section id="community" class="litch-section">
+            <h2 class="litch-section__title">Community</h2>
+            <p class="litch-section__description">Conecte-se com jogadores do mundo inteiro, compartilhe experiências e
+                descobertas.</p>
+
+            <div class="litch-community-grid">
+                <div class="litch-community-card">
+                    <div class="litch-community-card__icon">👥</div>
+                    <h3 class="litch-community-card__title">Comunidades Ativas</h3>
+                    <p class="litch-community-card__text">Faça parte de comunidades dedicadas aos seus jogos favoritos.
+                    </p>
+                </div>
+
+                <div class="litch-community-card">
+                    <div class="litch-community-card__icon">💬</div>
+                    <h3 class="litch-community-card__title">Discussões</h3>
+                    <p class="litch-community-card__text">Compartilhe dicas, estratégias e descobertas com outros
+                        jogadores.</p>
+                </div>
+
+                <div class="litch-community-card">
+                    <div class="litch-community-card__icon">🎮</div>
+                    <h3 class="litch-community-card__title">Eventos</h3>
+                    <p class="litch-community-card__text">Participe de eventos exclusivos e competições da comunidade.
+                    </p>
+                </div>
+
+                <div class="litch-community-card">
+                    <div class="litch-community-card__icon">🏆</div>
+                    <h3 class="litch-community-card__title">Leaderboards</h3>
+                    <p class="litch-community-card__text">Acompanhe rankings e desafie jogadores ao redor do mundo.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="litch-footer">
+        <p>&copy; 2024 Litch. Todos os direitos reservados.</p>
+    </footer>
+</body>
+
+</html>
